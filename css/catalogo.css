@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+
+.menu-navegacion{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #171a21;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 0 35px 0 35px;
+}
+
+.buscar a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #44416b;
+    border: 2px solid #000000;
+    padding:8px;
+    align-items: center;
+    
+}
+.buscar a:hover{
+    font-size: 13px;
+}
+
+
+.menu a:hover{
+    background-color: rgb(221, 219, 216);
+    font-size: 30px;
+}
+
+.imagen{
+    background-image: url(Imagenes/imagen.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.section1{
+    margin: 50px 100px;
+}
+
+aside{
+    float: right;
+    width: 300px;
+}
+
+.aside h1{
+    color: white;
+}
+
+.aside a{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    text-decoration: none;
+    color: #66c0f4;
+}
+
+.explorar h1{
+    color: white;
+}
+
+.flecha{
+    color: white;
+    margin-top: 250px;
+    font-size: 30px;
+}
+
+.consolas{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.consola-imagen1{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen2{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen3{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen4{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen5{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen6{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}

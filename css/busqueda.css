@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+body{
+    background-color: #62c45f;
+}
+.productos{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    text-align: center;
+}
+.buscar a{
+    color: rgb(202, 70, 70);
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #44416b;
+    border: 2px solid #000000;
+    padding:8px;
+    align-items: center;
+    
+}
+.buscar a:hover{
+    font-size: 13px;
+    align-items: center;
+}
+
+
+.menu a:hover{
+    background-color: rgb(23, 156, 52);
+    font-size: 30px;
+    align-items: center;
+}
+
+.titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.section1{
+    margin: 50px 100px;
+}
+
+aside{
+    float: right;
+    width: 300px;
+}
+
+.aside h1{
+    color: rgb(218, 24, 24);
+}
+.menu-navegacion{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #103794;
+}
+
+.menu a{
+    color: rgb(202, 68, 68);
+    text-decoration: none;
+    padding: 0 35px 0 35px;
+    align-items: center;
+}
+
+.aside a{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    text-decoration: none;
+    color: #66c0f4;
+}
+
+.explorar h1{
+    color: rgb(100, 76, 76);
+}
+
+.flecha{
+    color: rgb(187, 64, 64);
+    margin-top: 250px;
+    font-size: 30px;
+}
+
+.consolas{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.consola-imagen1{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen2{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen3{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen4{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.consola-imagen5{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+

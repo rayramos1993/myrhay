@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+	<head>
+		<meta charsert="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/busqueda.css">
+        <title>MIRHAY</title>	
+	</head>
+    <body ng-controller="myController">
+    <header>
+        <h1 class="productos">CONOZCA LAS EMPRESAS QUE NOS APOYAN</h1>
+    </header>
+    <style>
+		body{
+			background-image: url(images/dona.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+        <div class=contaienr>
+                <div class="col-md-10"></div>
+                <div class="col-md-8 well">
+                <hr style="border-top:1px dotted rgb(11, 65, 35);"/>
+                <div class="col-md-2"></div>
+
+                <div class="col-md-8">	
+                <div class="form-inline">
+                <input type="text" class="form-control" ng-model="search" placeholder="Buscar"/>
+                </div>
+
+                <br/>
+                <table class="table table-bordered">
+                <thead class="alert-info">
+                <tr>
+                    <th ng-click="sortData('Nombre')">Nombre<div ng-class="getSortClass('Nombre')"></div></th>
+                    <th ng-click="sortData('Precio')">Fecha<div ng-class="getSortClass('Precio')"></div></th>
+                </tr>
+
+                </thead>
+                    <tbody>
+                    <tr ng-repeat="member in members | orderBy:sortColumn:reverseSort | filter: search">
+                        <td>{{member.Nombre}}</td>
+                        <td>{{member.Fecha}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>	
+                </div>
+<script src="js/angular.min.js"></script>
+<script src="js/busqueda.js"></script>	
+</body>	
+</html>
